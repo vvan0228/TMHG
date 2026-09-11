@@ -3,6 +3,9 @@ __pycache__/
 *.pth.tar
 *.log
 result/
-data/
+# 忽略数据文件，但保留目录与图片
+data/**/*.json
+data/dataset/*.json
+*.json
 .idea/
 .vscode/
