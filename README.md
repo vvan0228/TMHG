@@ -78,16 +78,16 @@ pip install -r requirements.txt
 
 ## Data Preparation
 ### 1. Get Dataset
-We evaluate on the benchmark **DiaASQ** dataset. Download the original dataset from [DiaASQ](https://github.com/unikcc/DiaASQ/tree/master/data/dataset) to `data/dataset`.
+We evaluate on the benchmark **DiaASQ** dataset. You can directly download the preprocessed dataset (including dependency parse data) from [Google Drive](https://drive.google.com/drive/folders/1OJCOh6lyUny_5PkXq_qEUtHVf46PGqkL?usp=drive_link) provided by DMIN and extract it to `data/dataset`.
 
-Then install spaCy and download the corresponding models:
-- `zh_core_web_trf` for Chinese (ZH) dataset
-- `en_core_web_trf` for English (EN) dataset
+Alternatively, you can obtain the original dataset from [DiaASQ](https://github.com/unikcc/DiaASQ/tree/master/data/dataset) and follow [DMIN](https://github.com/SIGSDSscau/DMIN) to generate the parsed dependencies.
 
-You can get the dependency parsed data by running:
-```bash
-cd ./data/dataset/
-python gen_dep_dataset_by_spacy.py
+The data directory structure should be:
+```text
+data/
+└── dataset/
+    ├── dataset_zh/
+    └── dataset_en/
 ```
 
 
