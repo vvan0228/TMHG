@@ -9,7 +9,7 @@
   <img src="https://img.shields.io/badge/transformers-4.20.1-orange" alt="transformers 4.20.1">
 </a>
 
-This repository contains data and code for the paper: **TMHG: Threefold Multi-focal Heterogeneous Graphs for Conversational Aspect-based Sentiment Quadruple Analysis** (Under Review)[cite: 10].
+This repository contains data and code for the paper: **TMHG: Threefold Multi-focal Heterogeneous Graphs for Conversational Aspect-based Sentiment Quadruple Analysis** (Under Review).
 
 ------
 
@@ -35,12 +35,12 @@ cd TMHG
 
 
 ## Overview
-In this work, we propose **TMHG** (Threefold Multi-focal Heterogeneous Graphs) for DiaASQ, which aims to extract Target-Aspect-Opinion-Sentiment quadruples from multi-turn dialogues[cite: 10]. 
+In this work, we propose **TMHG** (Threefold Multi-focal Heterogeneous Graphs) for DiaASQ, which aims to extract Target-Aspect-Opinion-Sentiment quadruples from multi-turn dialogues. 
 
 TMHG models structural semantics from three complementary perspectives:
-- **MUEAG**: Multi-Thread Utterance Evolution Association Graph[cite: 10]
-- **MISFG**: Multi-Dimensional Intra- and Inter-Thread Sentence Focus Graph[cite: 10]
-- **ICTFG**: Intra-Thread Cross-Utterance Token Focus Graph[cite: 10]
+- **MUEAG**: Multi-Thread Utterance Evolution Association Graph
+- **MISFG**: Multi-Dimensional Intra- and Inter-Thread Sentence Focus Graph
+- **ICTFG**: Intra-Thread Cross-Utterance Token Focus Graph
 
 <center>
 <img src="./data/fig_model.png" width="50%" />
@@ -49,7 +49,7 @@ TMHG models structural semantics from three complementary perspectives:
 
 ## Requirements
 
-The model is implemented using PyTorch[cite: 17]. The versions of the main packages:
+The model is implemented using PyTorch. The versions of the main packages:
 
 + python >= 3.8
 + torch >= 1.9.0
