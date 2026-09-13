@@ -77,7 +77,7 @@ pip install -r requirements.txt
 
 
 ## Data Preparation
-### 1. Get Dataset
+### Get Dataset
 We evaluate on the benchmark **DiaASQ** dataset. You can directly download the preprocessed dataset (including dependency parse data) from [Google Drive](https://drive.google.com/drive/folders/1OJCOh6lyUny_5PkXq_qEUtHVf46PGqkL?usp=drive_link) provided by DMIN and extract it to `data/dataset`.
 
 Alternatively, you can obtain the original dataset from [DiaASQ](https://github.com/unikcc/DiaASQ/tree/master/data/dataset) and follow [DMIN](https://github.com/SIGSDSscau/DMIN) to generate the parsed dependencies.
@@ -92,9 +92,8 @@ data/
 
 
 ## TRAIN
-Configure paths and hyperparameters in `src/config.yaml`.
 
-### 1. Run Script
+### Run Script
 ```bash
 # seed = 41-45
 bash script/train.sh
